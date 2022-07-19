@@ -105,12 +105,29 @@ banner section styling starts
 
 }
 
-.sidenav .nav-btn {
+.navigation {
+    height: 175px;
+    width: 175px;
+    margin: 30px;
+    border: 1px solid red;
+}
+
+.nav-btn {
+    display: block;
     text-decoration: none;
     color: black;
     background-color: white;
-    width: 100px;
-    height: 25px;
+    width: 173px;
+    height: 37px;
+    margin: 18px 0px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.nav-btn,
+a {
+    margin-top: 10px;
 }
 
 
