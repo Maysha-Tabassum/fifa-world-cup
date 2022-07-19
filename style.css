@@ -1,0 +1,90 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*---------------------------
+ banner section styling starts 
+--------------------------- */
+.banner {
+    display: flex;
+    margin: 50px 120px 130px 120px;
+    width: 980px;
+    height: 510px;
+    border: 1px solid gray;
+    /* height: 100vh; */
+    background: #161616;
+    border-radius: 30px;
+}
+
+.banner-left {
+    padding-left: 30px;
+    width: 50%;
+}
+
+.banner-left-info {
+    margin: 50px 30px;
+    width: 400px;
+    height: 400px;
+}
+
+.banner-left-info h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    color: white;
+}
+
+.banner-left-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.btn {
+
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 14px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn .fa-angle-right {
+    margin-left: 10px;
+}
+
+.banner-right {
+
+    width: 50%;
+
+}
+
+.banner-right-img {
+
+    width: 460px;
+    height: 507px;
+
+}
+
+.banner-right-img img {
+    width: 444px;
+    height: 488px;
+    margin-top: 20px;
+}
+
+/*---------------------------
+ banner section styling ends 
+--------------------------- */
