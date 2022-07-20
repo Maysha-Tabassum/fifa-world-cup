@@ -301,7 +301,7 @@ footer {
     border-radius: 10px;
 }
 
-.match-time h3 {
+.match-time {
     text-align: center;
     padding-top: 15px;
 }
@@ -311,4 +311,30 @@ footer {
     font-size: 14px;
     font-weight: 200;
     color: #777;
+}
+
+.all-groups {
+    width: 220px;
+    height: 200px;
+    border: 1px solid #B9B9B9;
+    border-radius: 10px;
+}
+
+.all-groups h3 {
+    text-align: center;
+    padding-top: 15px;
+    color: black;
+    background-color: red;
+    padding-bottom: 10px;
+    border: 1px solid rgb(179, 177, 177);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.group-a {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 18px;
+
 }
