@@ -17,7 +17,7 @@ body {
     --light-color: #777;
     --box-shadow: 8px 8px 0 rgba(202, 125, 125, 0.2);
     --text-shadow: 6px 6px 0 rgba(0, 0, 0, .2);
-    --border: 3px solid var(--red);
+    --border: 4px solid var(--red);
 }
 
 /*---------------------------
@@ -134,28 +134,42 @@ banner section styling starts
 }
 
 .navigation {
-    height: 175px;
+    height: 180px;
     width: 175px;
     margin: 30px;
     /* border: 1px solid red; */
 }
 
-.nav-btn {
-    display: block;
-    text-decoration: none;
-    color: black;
-    background-color: white;
+.navigation .active {
+    background-color: red;
+    color: white;
     width: 173px;
     height: 37px;
+    text-decoration: none;
     margin: 18px 0px;
     text-align: center;
     border-radius: 10px;
     font-size: 16px;
 }
 
+.nav-btn {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    width: 170px;
+    height: 37px;
+    margin: 18px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
 .nav-btn,
 a {
-    margin-top: 10px;
+    margin: 15px 0px;
+    padding: 3px;
 }
 
 
@@ -249,7 +263,7 @@ footer {
 
 .footer-social-icons {
     width: 20%;
-    margin: auto;
+    margin-left: 500px;
 }
 
 .social-icon {
