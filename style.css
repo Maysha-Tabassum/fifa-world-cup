@@ -6,7 +6,6 @@
     padding: 0%;
 }
 
-
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -23,21 +22,13 @@ body {
 /*---------------------------
 banner section styling starts 
 --------------------------- */
-/* .container {
-    margin: 50px 120px 70px 120px;
-    border: 1px solid blue;
-} */
-
 .container {
     background-color: white;
     width: 982px;
     padding: 10px 54px;
-
     border-radius: 5px;
-    border: 2px solid blue;
     margin: 50px 120px 70px 120px;
 }
-
 
 .banner {
     display: flex;
@@ -128,6 +119,10 @@ h1 {
 /*---------------------------
  banner section styling ends 
 --------------------------- */
+
+/*-----------------------------
+ blog section styling starts
+ ------------------------------ */
 .sidenav {
     height: 250px;
     width: 230px;
@@ -141,7 +136,6 @@ h1 {
     height: 180px;
     width: 175px;
     margin: 30px;
-    /* border: 1px solid red; */
 }
 
 .navigation .active {
@@ -176,7 +170,6 @@ a {
     padding: 3px;
 }
 
-
 .blogs-page {
     display: flex;
     justify-content: space-between;
@@ -187,7 +180,6 @@ a {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 25px;
-
 }
 
 .blog {
@@ -195,28 +187,22 @@ a {
     height: 280px;
     border: 1px solid rgb(213, 212, 212);
     border-radius: 10px;
-
 }
 
 .blog-btn {
     text-decoration: none;
     font-weight: 300;
     font-size: 12px;
-    /* line-height: 24px; */
     color: #161616;
-    /* width: 67px;
-    height: 24px; */
     border: 1px solid #161616;
     padding: 3px 8px;
     border-radius: 5px;
     margin-bottom: 10px;
-
 }
 
 .blog-live p {
     font-size: 12px;
     font-weight: 200;
-
 }
 
 .blog-info,
@@ -243,7 +229,6 @@ a {
  --------------------------------*/
 
 footer {
-
     text-align: center;
     background: #0B0D17;
 }
@@ -272,8 +257,6 @@ footer {
 .social-icon {
     padding-bottom: 40px;
     padding-left: 105px;
-
-
 }
 
 .social-icon span a {
@@ -282,9 +265,13 @@ footer {
     font-size: 20px;
 }
 
-/*---------------------------
- upcoming matches sec styling
- ---------------------------- */
+/*----------------------------
+ footer section styling ends 
+------------------------------ */
+
+/*---------------------------------
+ upcoming matches sec styling starts
+ ----------------------------------- */
 .flag-sec {
     display: flex;
     justify-content: center;
@@ -317,8 +304,8 @@ footer {
     color: #777;
 }
 
-/*----------------------------
- all-groups section styling 
+/*-------------------------------
+ all-groups section styling starts
 ------------------------------*/
 
 .all-groups {
@@ -358,16 +345,13 @@ footer {
 
         width: 56%;
         border-radius: 5px;
-        border: 2px solid blue;
         margin: 0px;
         padding: 10px;
-
     }
 
     .banner {
         display: block;
         height: 848px;
-
         width: 100%;
         margin: 0px;
     }
